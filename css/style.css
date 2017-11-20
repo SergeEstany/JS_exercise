@@ -1,0 +1,139 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+div.farm {
+     background-image: url('https://www.mountainviewgrand.com/files/2794/Farm_summer_1.jpg');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 100%;
+     height: 1080px;
+}
+
+div.dog {
+     position: absolute;
+     background-image: url('http://www.pngpix.com/wp-content/uploads/2016/03/Dog-Sitting-PNG-Image.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 200px;
+     width: 200px;
+     top: 80%;
+     left: 100px;
+}
+
+div.cow {
+     position: absolute;
+     background-image: url('http://pngimg.com/uploads/cow/cow_PNG2129.png?i=1');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 200px;
+     width: 200px;
+     top: 90%;;
+     left: 300px;
+}
+
+div.rooster {
+     position: absolute;
+     background-image: url('http://vignette3.wikia.nocookie.net/animals/images/2/2c/Rooster.png/revision/latest?cb=20160420143213&path-prefix=ar');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 200px;
+     width: 200px;
+     top: 73%;
+     left: 500px;
+}
+
+div.pony {
+     position: absolute;
+     background-image: url('http://pngimg.com/uploads/horse/horse_PNG2525.png?i=1');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 200px;
+     width: 200px;
+     top: 85%;;
+     left: 700px;
+}
+
+div.pig {
+     position: absolute;
+     background-image: url('http://www.pngmart.com/files/1/pig.png');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 200px;
+     width: 200px;
+     top: 70%;;
+     left: 900px;
+}
